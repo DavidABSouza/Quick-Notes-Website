@@ -1,0 +1,90 @@
+header{
+    background-color: rgb(253, 215, 168);
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+    box-shadow: 5px 5px 5px saddlebrown;
+    border-radius: 5px;
+    
+}
+    
+
+h1{
+    text-align: center;
+    color: saddlebrown;
+}
+
+body{
+    background-color: bisque;
+    margin: 0%;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#DivFormulario{
+    background-color:rgb(253, 215, 168);
+    width: 300px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px saddlebrown;
+    flex: 1;
+}
+
+#DivNotas{
+    background-color:rgb(253, 215, 168);
+    width: 300px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px saddlebrown;
+    flex: 2;
+}
+
+h2{
+    border-bottom: 2px solid;
+    color: saddlebrown;
+}
+
+main{
+    display: flex;
+    margin: 0 auto;
+    max-width: 50%;
+    gap: 20px;
+}
+
+h3{
+    margin-bottom: 2px;
+    color: saddlebrown;
+}
+
+input, textarea{
+    width: 75%;
+    border-radius: 5px;
+    border: 2px solid saddlebrown;
+    background-color: rgb(255, 242, 225);
+    color: saddlebrown
+
+}
+
+button{
+    background-color: rgb(255, 242, 225);
+    border: 2px solid saddlebrown;
+    border-radius: 5px;
+    color: saddlebrown;
+    font-weight: bolder;
+}
+
+.Card{
+    background-color: rgb(255, 242, 225);
+    border-radius: 5px;
+    border: 2px solid saddlebrown;
+    padding: 20px;
+    margin-top: 10px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+p{
+    color: saddlebrown;
+}
+
+::placeholder{
+    color: saddlebrown;
+}
