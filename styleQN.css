@@ -89,3 +89,8 @@ p{
 ::placeholder{
     color: saddlebrown;
 }
+
+.botaoDeletar{
+    margin-left: 400px; 
+    visibility: hidden;
+}
