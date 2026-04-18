@@ -17,26 +17,21 @@
                 <h2>Adicione Uma Nota</h2>
 
                 <h3>Título</h3>
-                <input type="text" required placeholder ="Digite o título da nota">
+                <input type="text" id="inputTitulo" required placeholder ="Digite o título da nota">
                 <h3>Conteúdo</h3>
-                <textarea name="" id="" required placeholder="Digite o conteúdo da sua nota aqui..."></textarea>
+                <textarea name="" id="inputTexto" required placeholder="Digite o conteúdo da sua nota aqui..."></textarea>
                 <br><br>
-                <button type="submit">Criar Nota</button>
+                <button type="button" onclick="AdicionarNota()">Criar Nota</button>
 
             </form>
         </div>
 
         <div id="DivNotas">
             <h2>Notas Criadas</h2>
-
-            <div id="DivCards">
-                <div class="Card">
-                    <h3>Anotação 1</h3>
-                    <p>Descrição da Nota</p>
-                    <p>Adicionado no dia: 08/08/25</p>
-                </div>
-
+            <div id="DivNotas2">
+                
             </div>
+
         </div>
     </main>
 
