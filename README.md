@@ -1,9 +1,9 @@
 # Quick-Notes-Website
 Repositório de site para notas rápidas
 
-# 📝 Projeto: MyNotes 2026
+# 📝 Projeto: Quick Notes Website
 
-Bem-vindo ao **MyNotes 2026**! Este é o seu desafio prático de integração de Front-End.
+Bem-vindo ao **Quick Notes Website**! Este é o seu desafio prático de integração de Front-End.
 Sua missão é construir uma aplicação web de página única (SPA) que permita ao usuário adicionar notas pessoais dinamicamente e excluí-las de forma interativa.
 
 ## 🎯 O Seu Desafio
