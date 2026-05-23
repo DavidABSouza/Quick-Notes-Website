@@ -1,3 +1,5 @@
+const botao = document.querySelector("#adicionar")
+
 function AdicionarNota() {
     const Card = document.createElement('div')
     Card.classList.add("Card")
@@ -16,10 +18,15 @@ function AdicionarNota() {
                 <p>${infoData}</p>
                 </div>
     `
-    DivCards.appendChild(Card)
-
-
+    
+    if(inputTitulo !== "" && inputTexto !== ""){
+        Mochila.appendChild(Item)
+    } else {
+        alert("Preencha os campos de entrada!")
+    }
 }
+
+botao.addEventListener("click", AdicionarNota)
 
 function Deletar(botao) {
 
