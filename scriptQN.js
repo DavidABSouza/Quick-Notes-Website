@@ -20,7 +20,7 @@ function AdicionarNota() {
     `
     
     if(inputTitulo !== "" && inputTexto !== ""){
-        Mochila.appendChild(Item)
+        DivCards.appendChild(Card)
     } else {
         alert("Preencha os campos de entrada!")
     }
